@@ -6,7 +6,7 @@ import { CreateCoffeeDto } from './dto/create-coffee.dto';
 import { UpdateCoffeeDto } from './dto/update-coffee.dto';
 import { Flavour } from './entities/flavour.entity';
 import { PaginationQueryDto } from 'src/common/dto/pagination-query.dto/pagination-query.dto';
-import { Event } from 'src/events/entities/event.entity/event.entity';
+import { Event } from '../events/entities/event.entity/event.entity';
 import { COFFEE_BRANDS } from './coffees.constants';
 import * as config from '@nestjs/config';
 import coffeesConfig from './config/coffees.config';

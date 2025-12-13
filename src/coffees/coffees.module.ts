@@ -4,7 +4,7 @@ import { CoffeesService } from './coffees.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { Coffee } from './entities/coffees.entity';
 import { Flavour } from './entities/flavour.entity';
-import { Event } from 'src/events/entities/event.entity/event.entity';
+import { Event } from '../events/entities/event.entity/event.entity';
 import { COFFEE_BRANDS } from './coffees.constants';
 import { ConfigModule } from '@nestjs/config';
 import coffeesConfig from './config/coffees.config';
